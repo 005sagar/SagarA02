@@ -1,11 +1,9 @@
 body{
   padding-top: 60px;
     padding-bottom: 20px;
-   
-     background-color: mediumSeaGreen;
-     background-size: 8000px;
-     background-image: url("https://lh3.googleusercontent.com/BxEeTZBL0eG-Q5ncsBcZxuk7Eo_DXI1lAyvxUiH2kamlI-HmaZ3g-aW_RMVURFL3hg6xrQF9KnFWo-GlLDwcb-Eh7tL-MEeqtWxGQC4VX_m4PzTZYxb9r_MGVGEgaUm4rfE0ADyOSOQZ19g-UdmTMq1_HGGVhfhOI5mdalBq_2asVOcfzwgszz_swzazZohHUrGi7kKtcaMMTpDQwLwzAutfWhfbGX9gHqK6FqGuWOsJkShDRpJVPGs3TJ8WAaugiI0wbA1KlRhnDLe4RYtuZeYyJdxJgbVeD_gcYTbdaxcXWNqe_l9nCy9_2Ppe0-kf437BXGt0w0gdj0IedzX_T5fCzpor0Y-ozqxNTBNiGcFMrtdbU4ZBOtcTNEWn9BQZNt8H4tTP4B4jsrWmDHLAF0pfzfbAVIrcT-FQfAUJexCtaYcxvr8r9c8tth9tatcVCom1jNt1xsbOKR4scUQ4_HRa9Gd3W4aLZG3XPsuFJJi5TctlT4dGdSA5MGYb6-j30HsIG1MUp4nOpoJ9L5JFVvH9li9N6EHJiL4vlM-5l-JyXzSWfXOU3XcHdvesCPFUtbiBO7PnqwQt2cvO6GyZOlDZjkpEvbn82pam3mmqDy2IDv0I01-5d2dVJi_a8vI=w1113-h626-no"); 
-     border-radius: 50%; 
+     background-size: 2000px;
+     background-image: url("./img/bck.png");
+      border-radius: 50%; 
      background-position: right top;
 }
 .col-sm-3 {
@@ -13,7 +11,7 @@ body{
 }
 img{
   border-radius:50%;
-  width: 20%;
+  width: 15%;
   height:auto;
 }
 .videowrapper {
@@ -228,8 +226,11 @@ footer{
       color: white;
 
     }
+    .submit{
+      color: blue;
+      background-color:red;
+    }
 
-/* Media Queries */
 @media(max-width: 768px){
   header #branding,
   header nav,
